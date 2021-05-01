@@ -2,7 +2,7 @@
 
 # Получаем и выводим весь список контактов в виде таблицы (console.table)
 
-node index.js --action list ![List](screenshots/list.png?raw=true 'Title')
+node index.js --action list ![plot](./screenshots/list.png)
 
 # Получаем контакт по id
 
