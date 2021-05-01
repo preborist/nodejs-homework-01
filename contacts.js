@@ -34,7 +34,6 @@ async function removeContact(contactId) {
   });
   const content = JSON.parse(data);
   const filteredContacts = content.filter(contact => contact.id !== contactId);
-  //   console.table(filteredContacts);
   await fs.writeFile(
     contactsPath,
     JSON.stringify(filteredContacts, null),
